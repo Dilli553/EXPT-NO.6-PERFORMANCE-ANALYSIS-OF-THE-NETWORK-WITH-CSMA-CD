@@ -23,7 +23,7 @@ STEP 17: In the definition of the finish procedure declare the global variables.
 STEP 20: Stop the program.
  
 # PROGRAM
-
+```
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
 $ns color 2 red
@@ -79,9 +79,11 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
+```
  
 # OUTPUT
 
+<img width="899" height="499" alt="image" src="https://github.com/user-attachments/assets/855545e3-48d8-4009-873f-e2754b731627" />
 
 
 
